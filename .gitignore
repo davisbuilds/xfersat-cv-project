@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+ENV/
+*.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VSCode
+.vscode/
+
+# Data
+data/raw/
+data/processed/
+*.zip
+
+# Results and visualizations
+results/
+
+# Model weights
+*.pth
+*.pt
+*.h5
+
+# Logs
+logs/
+*.log
