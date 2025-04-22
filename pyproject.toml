@@ -1,0 +1,21 @@
+[project]
+name = "eurosat"
+version = "0.1.0"
+description = "Investigating transfer learning approaches on CNN model architectures for satellite imagery classification."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ipywidgets>=8.1.5",
+    "jupyterlab>=4.3.5",
+    "matplotlib>=3.10.1",
+    "numpy<2.0.0",
+    "pandas>=2.2.3",
+    "pillow>=11.1.0",
+    "scikit-learn>=1.6.1",
+    "seaborn>=0.13.2",
+    "torch>=2.6.0",
+    "torchcam>=0.4.0",
+    "torchvision>=0.21.0",
+    "tqdm>=4.67.1",
+    "wandb>=0.19.9",
+]
